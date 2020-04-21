@@ -1,5 +1,6 @@
 ---
 layout: game
+permalink: /:categories/:title
 title:  "The Bouncer (Black Case)"
 author: Andrew Benson
 date:   2020-04-18 20:13:13 +0100
