@@ -30,7 +30,7 @@ permalink: /:console/:title/
 
   {% for file in site.static_files %}
     {% if file.path contains page.assetlocation %}
-      <img src="{{file.path}}" alt="{{file.name}}">
+      <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
       <br>
       <br>
     {% endif %}
