@@ -3,7 +3,7 @@ layout: game
 permalink: /:categories/:title
 title:  "A Random Game"
 author: Andrew Benson
-date:   2020-04-16 22:44:13 +0100
+date:   2020-04-20 22:44:13 +0100
 region: PAL
 platform: PS2
 rarity: 8
@@ -13,7 +13,7 @@ categories: collection sealed ps2
 predicted value: £20
 ---
 
-You are looking at the the blue case variant of this game, [welcome to jekyll]({% post_url 2020-04-18-welcome-to-jekyll %}) variant.
+You are looking at the the blue case variant of this game, [welcome to jekyll]({{ site.baseurl }}{% post_url 2020-04-18-welcome-to-jekyll %}) variant.
 
 # Photos
 

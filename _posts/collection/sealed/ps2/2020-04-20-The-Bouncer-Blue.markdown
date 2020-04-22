@@ -15,7 +15,7 @@ predicted value: £20
 
 # Notes
 
-You are looking at the the blue case variant of this game, I also have the rarer [black case]({% post_url /collection/sealed/ps2/2020-04-18-The-Bouncer-Black %}) variant.
+You are looking at the the blue case variant of this game, I also have the rarer [black case]({{ site.baseurl }}Í{% post_url /collection/sealed/ps2/2020-04-18-The-Bouncer-Black %}) variant.
 
 # Photos
 

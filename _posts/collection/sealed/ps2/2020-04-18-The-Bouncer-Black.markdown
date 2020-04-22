@@ -14,7 +14,7 @@ categories: collection sealed ps2
 
 # Notes
 
-This is the black case variant, I also have the less-rare [blue case]({% post_url /collection/sealed/ps2/2020-04-20-The-Bouncer-Blue %}) variant. Black cases are from the original first print of the game, that said some games were not released with a black case to begin with.
+This is the black case variant, I also have the less-rare [blue case]({{ site.baseurl }}{% post_url /collection/sealed/ps2/2020-04-20-The-Bouncer-Blue %}) variant. Black cases are from the original first print of the game, that said some games were not released with a black case to begin with.
 
 
 # Photos
