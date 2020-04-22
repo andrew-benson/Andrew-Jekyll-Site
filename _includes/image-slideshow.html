@@ -1,0 +1,9 @@
+<div class="post-image-gallery">
+{% for file in site.static_files %}
+    {% if file.path contains page.assetLocation %}
+        <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
+        <br>
+        <br>
+    {% endif %}
+{% endfor %}
+</div>
