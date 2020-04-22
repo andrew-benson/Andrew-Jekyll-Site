@@ -22,8 +22,7 @@ title: Benny's Blog
 author: Andrew Benson
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my new blog. My names Andrew and I look forward to sharing what I'm up to, with you.
-
+  Welcome to my new blog.
 ean_url: "https://www.upcitemdb.com/upc/" # used for looking up EAN/UPC
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://andrew-benson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
