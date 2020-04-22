@@ -29,8 +29,9 @@ permalink: /:console/:title/
     {% endif %}
 
     {% if page.ean %}
-      <p class="post-ean">EAN: {{ page.ean }}</p>
-      <a href="https://www.upcitemdb.com/upc/{{page.ean}}" target="blank">EAN Look up</a>      
+      <p class="post-ean">EAN: {{ page.ean }}
+        <a href="{{site.ean_url}}{{page.ean}}" target="blank">[Look up]</a>      
+      </p>
     {% endif %}
   
   </header>
