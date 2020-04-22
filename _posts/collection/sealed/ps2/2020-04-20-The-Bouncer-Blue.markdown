@@ -19,7 +19,7 @@ You are looking at the the blue case variant of this game, I also have the rarer
 
 # Photos
 
-{% include image-slideshow.html %}
+{% include slider.html %}
 
 # Videos
 {% include youtube-player.html id="5OAexJCZ4sg" %}

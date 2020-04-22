@@ -19,7 +19,7 @@ This is the black case variant, I also have the less-rare [blue case]({{ site.ba
 
 # Photos
 
-{% include image-slideshow.html %}
+{% include slider.html %}
 
 # Videos
 {% include youtube-player.html id="5OAexJCZ4sg" %}

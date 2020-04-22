@@ -12,6 +12,8 @@ assetLocation: /assets/img/pc/FF11
 categories: collection sealed pc
 ---
 
+{% include slider.html %}
+
 # Notes
 
 Some notes about FF11
