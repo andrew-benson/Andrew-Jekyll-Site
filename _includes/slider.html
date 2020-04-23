@@ -1,8 +1,6 @@
 <div class="slider">
     <div class="slider-items">
-        <!---
-        
-            {% for file in site.static_files %}
+        {% for file in site.static_files %}
             {% if file.path contains page.assetLocation and file.path contains "1" %}
             <div class="item active">
                 <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
@@ -14,12 +12,9 @@
                 <div class="caption">back</div>
             </div>
             {% endif %}
-            {% endfor %}
-        --->
+        {% endfor %}
     </div>
     
-    <div class="left-slide" onclick="myFunction">P</div>
-    <div class="right-slide" onclick="myFunction">N</div>
+    <div class="left-slide"><</div>
+    <div class="right-slide">></div>
 </div>
-
-<script src="blog/assets/js/slider.js"></script>
