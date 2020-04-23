@@ -1,7 +1,7 @@
 <div class="slider">
     <div class="slider-items">
         {% for file in site.static_files %}
-            {% if file.path contains page.assetLocation and file.path contains "1" %}
+            {% if file.path contains page.assetLocation and file.name contains "1_" %}
             <div class="item active">
                 <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
                 <div class="caption">front</div>
