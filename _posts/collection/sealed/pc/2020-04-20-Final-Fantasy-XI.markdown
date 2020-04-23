@@ -20,7 +20,7 @@ Some notes about FF11
 
 # Photos
 
-{% include image-slideshow.html %}
+{% include slider.html %}
 
 # Videos
 
