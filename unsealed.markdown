@@ -21,17 +21,17 @@ permalink: /collection/unsealed-games
   <ul>
   {% for game in site.games %}
     {%- if game.url contains "/unsealed/" and game.platform == platform -%}
-    <li><a href="{{ game.url }}">{{ game.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ game.url }}">{{ game.title }}</a></li>
     {%- endif -%}
   {% endfor %}
   </ul>
   <br>
 {% endfor %}
+
 <!--
-## Loop through all collections
 
 {% for col in site.collections %}
-<p>Collection: {{ col.label }}, {{ col.directory }}</p>
+  <p>Collection: {{ col.label }}, {{ col.directory }}</p>
 {% endfor %}
 
 
@@ -44,4 +44,5 @@ permalink: /collection/unsealed-games
     {% endfor %}
   </ul>
 {% endfor %}
+
 -->

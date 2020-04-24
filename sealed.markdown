@@ -26,7 +26,7 @@ I finally have a place where I can have a look at my games collection without ha
   <ul>
   {% for game in site.games %}
     {%- if game.url contains "/sealed/" and game.platform == platform -%}
-      <li><a href="{{ game.url }}">{{ game.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ game.url }}">{{ game.title }}</a></li>
     {%- endif -%}
   {% endfor %}
   </ul>
