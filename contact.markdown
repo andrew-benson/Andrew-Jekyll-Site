@@ -5,4 +5,4 @@ permalink: /contact/
 navitem: true
 ---
 
-Contact Form
+{% include contact-form.html %}
