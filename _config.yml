@@ -33,7 +33,18 @@ show_excerpts: false
 theme: minima
 plugins:
   - jekyll-feed
-
+collections_dir: mycollection
+collections:
+  sealed:
+    output: true
+    permalink: games/sealed/:path/
+  unsealed:
+    output: true
+    permalink: games/unsealed/:path/
+  ps1:
+    output: true
+    permalink: games/ps1/:path/
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
