@@ -18,8 +18,19 @@ permalink: /:console/:title/
   
   <!-- game meta data -->
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }} ({{ page.region }})</h1>
+
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }} ({{ page.region }})
+
+      {% if page.wiki %}
+        <a href="{{page.wiki}}" style="font-size:18px" target="blank">[Wiki]</a>      
+      {% endif %}
+
+    </h1>
     
+    {% if page.developer %}
+      <h4 class="post-developer">Developer: {{ page.developer }}</h4>      
+    {% endif %}
+
     {% if page.platform %}
       <h4 class="post-console">Platform: {{ page.platform }}</h4>      
     {% endif %}
@@ -36,6 +47,7 @@ permalink: /:console/:title/
   
   </header>
   
+  <!-- markdown content -->
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>

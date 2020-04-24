@@ -1,13 +1,15 @@
 ---
 layout: page
-title: Game Collection
+title: Collection
 permalink: /collection/
 ---
 
-This will have all the links to
+Please select the type of collection you're interested in.
 
-`sealed games`
+- [Sealed Games]({{ site.baseurl }}{% link sealed.markdown %})
+-- Some people collect figurines, others collect rocks, I collect video games. 
 
-`non sealed games`
-
-`miscellaneous`
+<!--
+-- Non-Sealed Games
+-- Miscellaneous Items
+-->
