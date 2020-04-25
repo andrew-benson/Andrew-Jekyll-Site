@@ -9,26 +9,4 @@ Showing all of my sealed games to someone takes a few hours so it's the main dri
 
 I finally have a place where I can have a look at my games collection without having to climb on to wobbly stool just to pull them all out (and risk it falling on top of me in the process). Please have a browse, see any favourites?
 
-<!-- Creating a distinct list of platforms -->
-{% assign uniquePlatforms = '' | split: '' %}
-
-{% for game in site.games %}
-  {%- if game.url contains "/sealed/" -%}
-    {% assign allPlatforms = game.platform | split: '_' | first | split: ' ' %}
-    {% assign uniquePlatforms = uniquePlatforms | concat: allPlatforms | uniq %}
-    {% assign uniquePlatforms = uniquePlatforms | uniq %}
-  {%- endif -%}
-{% endfor %}
-
-<!-- Looping through each platform and selecting sealed games only, by path -->
-{% for platform in uniquePlatforms %}
-  <h3>{{ platform }}</h3>
-  <ul>
-  {% for game in site.games %}
-    {%- if game.url contains "/sealed/" and game.platform == platform -%}
-      <li><a href="{{ site.baseurl }}{{ game.url }}">{{ game.title }}</a></li>
-    {%- endif -%}
-  {% endfor %}
-  </ul>
-  <br>
-{% endfor %}
+{% include games-by-condition.html condition="sealed" %}

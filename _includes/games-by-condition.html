@@ -1,0 +1,27 @@
+<!-- Creating a distinct list of platforms -->
+<div class="games-platform">
+
+  {% assign uniquePlatforms = '' | split: '' %}
+  {% assign condition = {{include.condition}} %}
+
+  {% for game in site.games %}
+    {% if game.url contains condition %}
+      {% assign allPlatforms = game.platform | split: '_' | first | split: ' ' %}
+      {% assign uniquePlatforms = uniquePlatforms | concat: allPlatforms | uniq %}
+      {% assign uniquePlatforms = uniquePlatforms | uniq %}
+    {% endif %}
+  {% endfor %}
+  
+  <!-- Looping through each platform and selecting sealed games only, by path -->
+  {% for platform in uniquePlatforms %}
+    <h3>{{ platform }}</h3>
+    <ul>
+    {% for game in site.games %}
+      {%- if game.url contains condition and game.platform == platform -%}
+        <li><a href="{{ site.baseurl }}{{ game.url }}">{{ game.title }}</a></li>
+      {%- endif -%}
+    {% endfor %}
+    </ul>
+    <br>
+  {% endfor %}
+</div>
