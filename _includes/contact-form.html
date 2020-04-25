@@ -1,16 +1,28 @@
-<form action="{{ site.formspree_url }}{{ site.formspree_id }}" method="POST">
-    <label>
-        Name:
-        <input type="text" name="name">
-    </label>
-    <label>
-        Your email:
-        <input type="text" name="_replyto">
-    </label>
-    <br>
-    <label>
-        Your message:
-        <textarea name="message"></textarea>
-    </label>
-    <button type="submit">Send</button>
-</form>
+<div class="contact-form">
+    <form action="{{ site.formspree_url }}{{ site.formspree_id }}" method="POST">
+        <div class="text-input-container">
+            <label>
+                Name:
+                <input type="text" name="name" placeholder="Enter your name">
+            </label>
+        </div>
+
+        <div class="text-input-container">
+            <label>
+                Email:
+                <input type="text" name="_replyto" placeholder="Enter your email">
+            </label>
+        </div>        
+
+        <div class="text-input-container">
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>    
+        </div>
+
+        <div class="contact-submit">
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</div>
