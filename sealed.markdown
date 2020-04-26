@@ -9,4 +9,4 @@ Showing all of my sealed games to someone takes a few hours so it's the main dri
 
 I finally have a place where I can have a look at my games collection without having to climb on to wobbly stool just to pull them all out (and risk it falling on top of me in the process). Please have a browse, see any favourites?
 
-{% include games-by-condition.html condition="sealed" %}
+{% include games-by-condition.html conditionPath="/sealed/" %}

@@ -4,4 +4,4 @@ title: Unsealed/Used Games
 permalink: /collection/unsealed-games
 ---
 
-{% include games-by-condition.html condition="unsealed" %}
+{% include games-by-condition.html conditionPath="/unsealed/" %}

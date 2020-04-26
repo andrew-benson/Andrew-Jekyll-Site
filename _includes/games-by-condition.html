@@ -2,7 +2,7 @@
 <div class="games-platform">
 
   {% assign uniquePlatforms = '' | split: '' %}
-  {% assign condition = {{include.condition}} %}
+  {% assign condition = {{include.conditionPath}} %}
 
   {% for game in site.games %}
     {% if game.url contains condition %}
