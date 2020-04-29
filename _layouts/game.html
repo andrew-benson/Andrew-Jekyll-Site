@@ -26,7 +26,10 @@ permalink: /:console/:title/
       {% endif %}
 
     </h1>
-    
+    {% if page.year %}
+    <h4 class="post-release-year">Released: {{ page.year }}</h4>      
+    {% endif %}
+
     {% if page.developer %}
       <h4 class="post-developer">Developer: {{ page.developer }}</h4>      
     {% endif %}
