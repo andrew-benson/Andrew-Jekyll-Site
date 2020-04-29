@@ -8,7 +8,7 @@ region: PAL
 platform: PS1
 rarity: 4
 ean: 4036636200558
-assetLocation: /assets/img/unsealed/ps1/Final Fantasy IX
+assetLocation: /assets/img/ps1/unsealed/Final Fantasy IX
 wiki: https://en.wikipedia.org/wiki/Final_Fantasy_IX
 ---
 

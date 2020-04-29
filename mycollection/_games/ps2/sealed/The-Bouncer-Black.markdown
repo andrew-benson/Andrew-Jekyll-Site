@@ -8,7 +8,7 @@ region: PAL
 platform: PS2
 rarity: 8
 ean: 711719274223
-assetLocation: /assets/img/sealed/ps2/bouncer_black
+assetLocation: /assets/img/ps2/sealed/The Bouncer (Original)
 categories: collection sealed ps2
 wiki: https://en.wikipedia.org/wiki/The_Bouncer_(video_game)
 value: 100

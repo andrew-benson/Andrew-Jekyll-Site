@@ -8,7 +8,7 @@ region: EUR
 platform: PC
 rarity: 5
 ean: 3307210176950
-assetLocation: /assets/img/pc/FF11
+assetLocation: /assets/img/pc/sealed/FF11
 categories: sealed PC anotherone
 tags: sealed
 wiki: https://en.wikipedia.org/wiki/Final_Fantasy_XI

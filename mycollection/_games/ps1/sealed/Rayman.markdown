@@ -8,7 +8,7 @@ region: PAL
 platform: PS1
 rarity: 9
 ean: 3307212805230
-assetLocation: /assets/img/sealed/ps1/Rayman
+assetLocation: /assets/img/ps1/sealed/Rayman
 wiki: https://en.wikipedia.org/wiki/Rayman_(video_game)
 ---
 

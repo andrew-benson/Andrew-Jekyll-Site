@@ -1,20 +1,22 @@
-<div class="slider">
-    <div class="slider-items">
-        {% for file in site.static_files %}
-            {% if file.path contains page.assetLocation and file.name contains "1_" %}
-            <div class="item active">
-                <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
-                <div class="caption">front</div>
-            </div>
-            {% elsif file.path contains page.assetLocation %}
-            <div class="item">
-                <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
-                <div class="caption">back</div>
-            </div>
-            {% endif %}
-        {% endfor %}
+{%- if page.assetLocation -%}    
+    <div class="slider">
+        <div class="slider-items">
+            {% for file in site.static_files %}
+                {% if file.path contains page.assetLocation and file.name contains "1_" %}
+                <div class="item active">
+                    <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
+                    <div class="caption">front</div>
+                </div>
+                {% elsif file.path contains page.assetLocation %}
+                <div class="item">
+                    <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
+                    <div class="caption">back</div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        
+        <div class="left-slide"><</div>
+        <div class="right-slide">></div>
     </div>
-    
-    <div class="left-slide"><</div>
-    <div class="right-slide">></div>
-</div>
+{% endif %}

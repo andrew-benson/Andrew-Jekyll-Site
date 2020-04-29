@@ -8,7 +8,7 @@ region: PAL
 platform: GBC
 rarity: 4
 ean: 
-assetLocation: /assets/img/unsealed/ps2/
+assetLocation: /assets/img/gbc/unsealed/Pokemon Pinball
 categories: collection unsealed gbc
 wiki: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pinball
 isSealed: false
