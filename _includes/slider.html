@@ -4,7 +4,8 @@
             {% for file in site.static_files %}
                 {% assign strArray = file.name | split: "_" %}
                 {% assign caption = strArray | last | remove: '.jpg' %}
-                {% if file.path contains page.assetLocation and file.name contains "1_" %}
+                {% assign firstChar = strArray | first | remove: '.jpg' %}
+                {% if file.path contains page.assetLocation and firstChar == "1" %}
                 <div class="item active">
                     <img src="{{site.url}}{{site.baseurl}}{{file.path}}" alt="{{file.name}}">
                     {%- if caption != '' -%}                                            
