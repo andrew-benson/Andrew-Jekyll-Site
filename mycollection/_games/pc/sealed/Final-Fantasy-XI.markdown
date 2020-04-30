@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Final Fantasy XI Online"
+year: 2002
 author: Andrew Benson
 date:   2020-04-22 03:00:00 +0100
 developer: SQUARE ENIX

@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Pokémon Pinball"
+year: 2000
 author: Andrew Benson
 date:   2020-04-23 22:24:00 +0100
 developer: Jupiter

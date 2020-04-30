@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Final Fantasy IX"
+year: 2000
 author: Andrew Benson
 date:   2020-04-24 18:05:00 +0100
 developer: Squaresoft
