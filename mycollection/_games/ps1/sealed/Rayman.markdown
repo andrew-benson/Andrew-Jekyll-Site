@@ -1,6 +1,7 @@
 ---
 layout: game
 title:  "Rayman"
+year: 1995
 author: Andrew Benson
 date:   2020-04-24 17:57:00 +0100
 developer: UBISOFT
